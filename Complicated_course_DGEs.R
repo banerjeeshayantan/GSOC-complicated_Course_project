@@ -1,5 +1,13 @@
 #Author : Shayantan Banerjee
 #assuming the clinical_and_genomic.txt file is in your path and loaded into the R workspace with the filename data
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("limma")
+BiocManager::install("ComplexHeatmap")
+BiocManager::install("EnhancedVolcano")
+library(limma)
+library(ComplexHeatmap)
+library(EnhancedVolcano)
 arr=numeric(276)
 arr[which(data$Complicated.Course=="YES")]="YES"
 arr[which(data$Complicated.Course=="NO")]="NO"
