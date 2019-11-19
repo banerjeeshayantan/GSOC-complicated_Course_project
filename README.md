@@ -1,4 +1,4 @@
-This is the repository containing all the codes necessary to reporduce the results for the gene expression analysis and the machine learning study conducted using the sepsis genomics data. This was part of the GSOC project titled **Integrating genomics and high-frequency physiologic data for sepsis detection**  
+This is the repository containing all the codes necessary to reporduce the results for the gene expression analysis and the machine learning study conducted using the sepsis genomics data. This was part of the [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSOC) project titled **Integrating genomics and high-frequency physiologic data for sepsis detection**  
 
 [GSOC project link](https://summerofcode.withgoogle.com/organizations/5759105409482752/#5859209076277248)  
 
